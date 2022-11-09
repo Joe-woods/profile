@@ -1,0 +1,72 @@
+@import url('https://use.fontawesome.com/releases/v5.0.10/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400&display=swap');
+
+body {
+background-color: #FFEFD6;
+color: #393E46;
+font-family: 'Barlow', sans-serif;
+font-size: 18px;
+}
+
+head {
+color: #393E46;
+font-family: 'Barlow', sans-serif;
+font-size: 15px;
+}
+
+h1, h2 {
+  color: #393E46;
+  font-family: 'Barlow', sans-serif;
+  font-size: 25px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+ul > li {
+  display: inline;
+  margin: 0;
+}
+
+.avatar-pict {
+	width: 150px;
+	height: 150px;
+  border-radius: 75px;
+}
+
+.card {
+  padding: 60px;
+  background-color: #FFEFD6;
+  margin: 60px 200px auto;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.2);
+  text-align: center;
+}
+.background_blue {
+  background-color: #F2DEBA;
+  text-align: center;
+  border: 1px solid #393E46;
+}
+
+.btn_profile {
+background-color: #FFEFD6;
+padding: 10px 15px;
+margin: 10px;
+border-radius: 5px;
+border-color: #393E46;
+border: 1px solid;
+text-decoration: none;
+}
+
+.btn_profile:hover {
+  color: rgb(115, 196, 158);
+  transition-delay: 10ms;
+}
+
+.photo_passion {
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
